@@ -28,14 +28,14 @@ const Hero = () => {
                 <div className="flex justify-between ">
                     <div className="bg-gray-200 rounded-lg p-3 w-full m-2">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><MdOutlineDoNotDisturbOnTotalSilence className="text-purple-600" />TOTAL TICKETS</h2>
-                        <div className="bg-gray-100 rounded-lg p-4 flex flex-col gap-3">
+                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">43</h3>
                             <p className="text-sm text-purple-800">All support requests</p>
                         </div>
                     </div>
                     <div className="bg-gray-200 rounded-lg p-3  w-full m-2">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><FaRegEnvelopeOpen className="text-blue-600" />OPEN</h2>
-                        <div className="bg-gray-100 rounded-lg p-4 flex flex-col gap-3">
+                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">6</h3>
                             <p className="text-sm text-blue-800 ">Currently awaiting resolution</p>
 
@@ -44,7 +44,7 @@ const Hero = () => {
                     <div className="bg-gray-200 rounded-lg p-3  w-full m-2">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><FcHighPriority className="text-red-600" />URGENT</h2>
 
-                        <div className="bg-gray-100 rounded-lg p-4 flex flex-col gap-3">
+                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">3</h3>
                             <p className="text-sm text-red-600 ">Require priority attention</p>
                         </div>
@@ -52,14 +52,14 @@ const Hero = () => {
                     <div className="bg-gray-200 rounded-lg p-3  w-full m-2">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><GoClock className="text-amber-500" />PENDING</h2>
 
-                        <div className="bg-gray-100 rounded-lg p-4 flex flex-col gap-3">
+                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">14</h3>
-                            <p className="text-sm text-amber-500 ">Tickets waiting for a response or next action.</p>
+                            <p className="text-sm text-amber-500 ">Tickets waiting for a response.</p>
                         </div>
                     </div>
                     <div className="bg-gray-200 rounded-lg p-3  w-full m-2">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><FaCheck className="text-green-600" />RESOLVED</h2>
-                        <div className="bg-gray-100 rounded-lg p-4 flex flex-col gap-3">
+                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">20</h3>
                             <p className="text-sm text-green-600 ">Successfully resolved tickets.</p>
                         </div></div>
