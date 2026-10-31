@@ -13,8 +13,6 @@ I built it as a personal project to improve my React skills and learn how ticket
 
 ### Current progress
 - Dashboard layout
-- Ticket summary cards
-- Search bar
 - Filter and sort options
 
 I'm still working on the project and plan to add more features as I go.
