@@ -11,14 +11,14 @@ const Navbar = () => {
     <div className="flex justify-between items-center px-4 pt-2">
         <div className="flex items-center  gap-2  ">
             <BsLayoutSidebarReverse className="font-bold"/>
-            <p className="font-semibold text-gray-400">Workspace {">"} Tickets</p>
+            <p className="font-semibold text-white">Workspace {">"} Tickets</p>
         </div>
         <div>
             <div className="flex gap-3 text-xl">
-                <span className="border text-md border-gray-500/30 rounded-full p-0.5"><CiSearch /></span>
-                <span className="border border-gray-500/30 rounded-full p-0.5"><IoIosNotificationsOutline /></span>
-                <span className="border text-md border-gray-500/30 rounded-full p-1"><LuMessageSquareText /></span>
-                <span className="border-l-1 text-2xl  pl-3 border-gray-500/30  "><CgProfile /></span>
+                <span className="border text-md border-gray-500/30 rounded-full p-0.5 text-white"><CiSearch /></span>
+                <span className="border border-gray-500/30 rounded-full p-0.5 text-white"><IoIosNotificationsOutline /></span>
+                <span className="border text-md border-gray-500/30 rounded-full p-1 text-white"><LuMessageSquareText /></span>
+                <span className="border-l-1 text-2xl  pl-3 border-gray-500/30 text-white "><CgProfile /></span>
 
             </div>
         </div>

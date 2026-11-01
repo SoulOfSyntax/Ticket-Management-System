@@ -15,53 +15,53 @@ const Hero = () => {
         <div className="m-4">
             <div className="flex justify-between items-center">
                 <div className="flex justify-between mb-4">
-                    <h1 className="text-4xl font-bold">Tickets</h1>
+                    <h1 className="text-4xl font-bold text-white">Tickets</h1>
                 </div>
                 <div className="flex gap-2">
-                    <span className="border flex gap-2 border-gray-300 p-1 items-center text-sm rounded-lg font-bold"><MdOutlineFileDownload /> Export</span>
-                    <span className="border border-gray-300 p-1 items-center text-sm bg-purple-700 rounded-lg font-bold">+ New Ticket</span>
+                    <span className="border flex gap-2 border-gray-300 p-1 bg-sky-900 text-white items-center text-sm rounded-lg font-bold "><MdOutlineFileDownload /> Export</span>
+                    <span className="border border-gray-300 p-1 items-center text-sm bg-sky-900 rounded-lg font-bold text-white">+ New Ticket</span>
                 </div>
 
             </div>
             <div classsName="flex flex-col ">
 
                 <div className="flex justify-between ">
-                    <div className="bg-gray-200 rounded-lg p-3 w-full m-2">
-                        <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><MdOutlineDoNotDisturbOnTotalSilence className="text-purple-600" />TOTAL TICKETS</h2>
-                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
+                    <div className="bg-sky-900 text-white rounded-lg p-3 w-full m-2">
+                        <h2 className=" flex items-center gap-2 text-lg font-semibold text-white"><MdOutlineDoNotDisturbOnTotalSilence className="" />TOTAL TICKETS</h2>
+                        <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col text-white gap-2">
                             <h3 className="text-3xl font-bold">43</h3>
-                            <p className="text-sm text-purple-800">All support requests</p>
+                            <p className="text-sm ">All support requests</p>
                         </div>
                     </div>
-                    <div className="bg-gray-200 rounded-lg p-3  w-full m-2">
-                        <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><FaRegEnvelopeOpen className="text-blue-600" />OPEN</h2>
-                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
+                    <div className="bg-sky-900 rounded-lg p-3  w-full m-2 text-white">
+                        <h2 className=" flex items-center gap-2 text-lg font-semibold "><FaRegEnvelopeOpen className="" />OPEN</h2>
+                        <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">6</h3>
-                            <p className="text-sm text-blue-800 ">Currently awaiting resolution</p>
+                            <p className="text-sm  ">Currently awaiting resolution</p>
 
                         </div>
                     </div>
-                    <div className="bg-gray-200 rounded-lg p-3  w-full m-2">
-                        <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><FcHighPriority className="text-red-600" />URGENT</h2>
+                    <div className="bg-sky-900 text-white rounded-lg p-3  w-full m-2">
+                        <h2 className=" flex items-center gap-2 text-lg font-semibold "><FcHighPriority className="text-red-600" />URGENT</h2>
 
-                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
+                        <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">3</h3>
-                            <p className="text-sm text-red-600 ">Require priority attention</p>
+                            <p className="text-sm  ">Require priority attention</p>
                         </div>
                     </div>
-                    <div className="bg-gray-200 rounded-lg p-3  w-full m-2">
-                        <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><GoClock className="text-amber-500" />PENDING</h2>
+                    <div className="bg-sky-900 rounded-lg p-3  w-full m-2 text-white">
+                        <h2 className=" flex items-center gap-2 text-lg font-semibold "><GoClock className="" />PENDING</h2>
 
-                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
+                        <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">14</h3>
-                            <p className="text-sm text-amber-500 ">Tickets waiting for a response.</p>
+                            <p className="text-sm  ">Tickets waiting for a response.</p>
                         </div>
                     </div>
-                    <div className="bg-gray-200 rounded-lg p-3  w-full m-2">
-                        <h2 className=" flex items-center gap-2 text-lg font-semibold text-gray-600"><FaCheck className="text-green-600" />RESOLVED</h2>
-                        <div className="bg-gray-100 rounded-lg p-2 flex flex-col gap-2">
+                    <div className="bg-sky-900 rounded-lg p-3  w-full m-2 text-white">
+                        <h2 className=" flex items-center gap-2 text-lg font-semibold "><FaCheck className="" />RESOLVED</h2>
+                        <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">20</h3>
-                            <p className="text-sm text-green-600 ">Successfully resolved tickets.</p>
+                            <p className="text-sm  ">Successfully resolved tickets.</p>
                         </div></div>
 
                 </div>
@@ -75,7 +75,7 @@ const Hero = () => {
                         <input
                             type="text"
                             placeholder="Search tickets by subject, Customer, ID..."
-                            className="border w-[400px] border-gray-300 pl-10 pr-3 py-2 rounded-lg outline-none focus:ring-2 focus:ring-purple-500"
+                            className="border w-[400px] bg-white/90 text-black border-gray-300 pl-10 pr-3 py-2 rounded-lg outline-none focus:ring-2 focus:ring-purple-500"
                         />
                     </div>
 
@@ -84,12 +84,12 @@ const Hero = () => {
                             <legend>
                                 Status
                             </legend>
-                            <select>
-                                <option value="All">All Tickets</option>
-      <option value="Open">Open</option>
-      <option value="Pending">Pending</option>
-      <option value="Resolved">Resolved</option>
-      <option value="Closed">Closed</option>
+                            <select className="">
+                                <option value="All" className="bg-gray-700">All Tickets</option>
+      <option value="Open" className="bg-gray-700">Open</option>
+      <option value="Pending" className="bg-gray-700">Pending</option>
+      <option value="Resolved" className="bg-gray-700">Resolved</option>
+      <option value="Closed" className="bg-gray-700">Closed</option>
                             </select>
                         </fieldset>
                         
@@ -98,9 +98,9 @@ const Hero = () => {
                                 Sort
                             </legend>
                             <select>
-                                <option value="newest">Newest</option>
-                                <option value="oldest">Oldest</option>
-                                <option value="priority">Priority</option>
+                                <option value="newest" className="bg-gray-700">Newest</option>
+                                <option value="oldest" className="bg-gray-700">Oldest</option>
+                                <option value="priority" className="bg-gray-700">Priority</option>
                             </select>
                         </fieldset>
 

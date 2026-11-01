@@ -10,7 +10,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className='bg-slate-900 min-h-screen text-white w-full'>
       <Navbar />
       <Hero />
     </div>
