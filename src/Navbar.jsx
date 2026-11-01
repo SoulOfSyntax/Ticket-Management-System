@@ -15,10 +15,10 @@ const Navbar = () => {
         </div>
         <div>
             <div className="flex gap-3 text-xl">
-                <span className="border text-md border-gray-500/30 rounded-full p-0.5 text-white"><CiSearch /></span>
-                <span className="border border-gray-500/30 rounded-full p-0.5 text-white"><IoIosNotificationsOutline /></span>
-                <span className="border text-md border-gray-500/30 rounded-full p-1 text-white"><LuMessageSquareText /></span>
-                <span className="border-l-1 text-2xl  pl-3 border-gray-500/30 text-white "><CgProfile /></span>
+                <span className="border cursor-pointer hover:bg-gray-300 hover:text-black text-md border-gray-500/30 rounded-full p-0.5 text-white"><CiSearch /></span>
+                <span className="border cursor-pointer hover:bg-gray-300 hover:text-black border-gray-500/30 rounded-full p-0.5 text-white"><IoIosNotificationsOutline /></span>
+                <span className="border cursor-pointer hover:bg-gray-300 hover:text-black text-md border-gray-500/30 rounded-full p-1 text-white"><LuMessageSquareText /></span>
+                <span className="border-l-1 transition-all duration-300 hover:scale-110 cursor-pointer hover:text-green-700 text-2xl  pl-3 border-gray-500/30 text-white "><CgProfile /></span>
 
             </div>
         </div>

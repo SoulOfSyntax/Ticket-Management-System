@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Hero from './Hero'
 import Navbar from './Navbar'
+import Table from './Table'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
     <div className='bg-slate-900 min-h-screen text-white w-full'>
       <Navbar />
       <Hero />
+      <Table />
     </div>
   )
 }

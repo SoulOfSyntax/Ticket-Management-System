@@ -18,22 +18,22 @@ const Hero = () => {
                     <h1 className="text-4xl font-bold text-white">Tickets</h1>
                 </div>
                 <div className="flex gap-2">
-                    <span className="border flex gap-2 border-gray-300 p-1 bg-sky-900 text-white items-center text-sm rounded-lg font-bold "><MdOutlineFileDownload /> Export</span>
-                    <span className="border border-gray-300 p-1 items-center text-sm bg-sky-900 rounded-lg font-bold text-white">+ New Ticket</span>
+                    <span className="border cursor-pointer flex gap-2 border-gray-300 p-1 bg-sky-900 text-white items-center text-sm rounded-lg font-bold "><MdOutlineFileDownload /> Export</span>
+                    <span className="border cursor-pointer border-gray-300 p-1 items-center text-sm bg-sky-900 rounded-lg font-bold text-white">+ New Ticket</span>
                 </div>
 
             </div>
             <div classsName="flex flex-col ">
 
                 <div className="flex justify-between ">
-                    <div className="bg-sky-900 text-white rounded-lg p-3 w-full m-2">
+                    <div className="bg-sky-900 cursor-pointer text-white rounded-lg p-3 w-full m-2">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold text-white"><MdOutlineDoNotDisturbOnTotalSilence className="" />TOTAL TICKETS</h2>
                         <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col text-white gap-2">
                             <h3 className="text-3xl font-bold">43</h3>
                             <p className="text-sm ">All support requests</p>
                         </div>
                     </div>
-                    <div className="bg-sky-900 rounded-lg p-3  w-full m-2 text-white">
+                    <div className="bg-sky-900 cursor-pointer rounded-lg p-3  w-full m-2 text-white">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold "><FaRegEnvelopeOpen className="" />OPEN</h2>
                         <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">6</h3>
@@ -41,25 +41,25 @@ const Hero = () => {
 
                         </div>
                     </div>
-                    <div className="bg-sky-900 text-white rounded-lg p-3  w-full m-2">
+                    <div className=" bg-red-700 cursor-pointer text-white rounded-lg p-3  w-full m-2">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold "><FcHighPriority className="text-red-600" />URGENT</h2>
 
-                        <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col gap-2">
+                        <div className=" bg-red-800 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">3</h3>
                             <p className="text-sm  ">Require priority attention</p>
                         </div>
                     </div>
-                    <div className="bg-sky-900 rounded-lg p-3  w-full m-2 text-white">
+                    <div className="bg-amber-500 cursor-pointer rounded-lg p-3  w-full m-2 text-white">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold "><GoClock className="" />PENDING</h2>
 
-                        <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col gap-2">
+                        <div className="bg-amber-600 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">14</h3>
                             <p className="text-sm  ">Tickets waiting for a response.</p>
                         </div>
                     </div>
-                    <div className="bg-sky-900 rounded-lg p-3  w-full m-2 text-white">
+                    <div className="bg-green-600 cursor-pointer rounded-lg p-3  w-full m-2 text-white">
                         <h2 className=" flex items-center gap-2 text-lg font-semibold "><FaCheck className="" />RESOLVED</h2>
-                        <div className="bg-sky-600/60 rounded-lg p-2 flex flex-col gap-2">
+                        <div className="bg-green-700 rounded-lg p-2 flex flex-col gap-2">
                             <h3 className="text-3xl font-bold">20</h3>
                             <p className="text-sm  ">Successfully resolved tickets.</p>
                         </div></div>
