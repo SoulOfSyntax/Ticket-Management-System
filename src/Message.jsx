@@ -15,6 +15,7 @@ const Message = () => {
     );
 
     return (
+        
         <div className="w-full h-[calc(100vh-2rem)] overflow-hidden  min-h-screen flex flex-col">
 
     {/* Top row */}
