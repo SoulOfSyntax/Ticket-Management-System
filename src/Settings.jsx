@@ -4,7 +4,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { BsPerson } from "react-icons/bs";
 import SettingsRight from "./SettingsRight"
 import Security from "./Security"
-import Appearience from './Appearience';
+import Appearience from './Appearance';
 import Notifications from './Notifications';
 
 const Settings = () => {
