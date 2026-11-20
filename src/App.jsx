@@ -10,11 +10,15 @@ import Sidebar from './Sidebar'
 import WeeklyPerformance from './WeeklyPerformance'
 import Notice from './Notice'
 import Pie from './Pie'
+import Settings from './Settings'
+import Help from './Help'
 import PriorityChart from './PriorityChart'
 import AllTickets from './AllTickets'
 import CreateTicket from './create'
 import Customer from './Customers'
 import CustomerDetails from './CustomerProfile'
+import Messages from './Message'
+import Reports from "./Reports"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
@@ -46,6 +50,10 @@ function App() {
           <Route path="/create-ticket" element={<CreateTicket />} />
           <Route path="/customer/:id" element={<CustomerDetails />} />
           <Route path="/customers" element={<Customer />} />
+          <Route path="/reports" element={<Reports />} />
+          <Route path="/settings" element={<Settings />} />
+          <Route path="/help" element={<Help />} />
+          <Route path="/message/:id" element={<Messages />} />
           <Route path="/tickets" element={<AllTickets />} />
         </Routes>
       </main>

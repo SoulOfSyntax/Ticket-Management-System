@@ -17,8 +17,10 @@ export default function Sidebar() {
                 </div>
 
                 {/* MAIN MENU Section */}
+                
                 <nav className="space-y-6">
-                    <div>
+                    <div className='flex flex-col   justify-between'>
+                    <div className='mb-12'>
                         <p className="px-3 text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
                             Main Menu
                         </p>
@@ -53,30 +55,25 @@ export default function Sidebar() {
                             </li>
 
                             <li>
-                                <a
-                                    href="/customers"
+                                <Link
+                                    to="/customers"
                                     className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
                                 >
                                     Customers
-                                </a>
+                                </Link>
                             </li>
 
-                            <li>
-                                <a
-                                    href="#knowledge-base"
-                                    className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
-                                >
-                                    Knowledge Base
-                                </a>
-                            </li>
+                            
+
+                           
 
                             <li>
-                                <a
-                                    href="#reports"
+                                <Link
+                                    to="/reports"
                                     className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
                                 >
                                     Reports
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -88,25 +85,28 @@ export default function Sidebar() {
                         </p>
                         <ul className="space-y-1">
                             <li>
-                                <a
-                                    href="#settings"
+                                <Link
+                                    to="/settings"
                                     className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
                                 >
                                     Settings
-                                </a>
+                                </Link>
                             </li>
 
                             <li>
-                                <a
-                                    href="#help"
+                                <Link
+                                    to="/help"
                                     className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
                                 >
                                     Help & Support
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
+                    </div>
+                    
                 </nav>
+                
             </div>
         </aside>
 
