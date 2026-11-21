@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { FaUnlockAlt } from "react-icons/fa";
 
 const SettingsRight = () => {
     return (

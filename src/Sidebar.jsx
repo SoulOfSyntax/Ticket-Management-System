@@ -25,21 +25,21 @@ export default function Sidebar() {
                             Main Menu
                         </p>
                         <ul className="space-y-1">
-                            {/* Active Link */}
+                            
                             <li>
                                 <a
                                     href="\"
-                                    className="block px-3 py-2.5 rounded-lg bg-violet-50 text-violet-700 font-semibold text-sm border-l-4 border-violet-600 transition-colors"
+                                    className="block px-3 py-2.5 rounded-lg bg-violet-50 text-violet-700 font-semibold text-sm hover:border-l-4 hover:border-violet-600 transition-colors"
                                 >
                                     Dashboard
                                 </a>
                             </li>
 
-                            {/* Inactive Links */}
+                            
                             <li>
                                 <Link
                                     to="/tickets"
-                                    className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
+                                    className="block px-3 py-2.5 hover:border-l-4 hover:border-violet-600 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
                                 >
                                     All Tickets
                                 </Link>
@@ -48,7 +48,7 @@ export default function Sidebar() {
                             <li>
                                 <Link
                                     to="/create-ticket"
-                                    className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
+                                    className="block px-3 py-2.5 hover:border-l-4 hover:border-violet-600 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
                                 >
                                     Create tickets
                                 </Link>
@@ -57,7 +57,7 @@ export default function Sidebar() {
                             <li>
                                 <Link
                                     to="/customers"
-                                    className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
+                                    className="block px-3 hover:border-l-4 hover:border-violet-600 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
                                 >
                                     Customers
                                 </Link>
@@ -70,7 +70,7 @@ export default function Sidebar() {
                             <li>
                                 <Link
                                     to="/reports"
-                                    className="block px-3 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
+                                    className="block px-3 hover:border-l-4 hover:border-violet-600 py-2.5 rounded-lg text-slate-600 hover:bg-slate-50 hover:text-violet-700 font-medium text-sm transition-colors"
                                 >
                                     Reports
                                 </Link>
